@@ -1,25 +1,50 @@
-# Hi, I'm Alryx 👋
+# Hi, I'm Vale 👋
 
-<!-- fill in: one-line bio — what you work on, what you're into -->
+I build Swiss-hosted, privacy-first AI tools for document-heavy professional
+work (bookkeeping, legal research, teaching), along with the agent tooling and
+self-hosted infrastructure they run on.
 
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat&logo=markdown&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/-Claude%20Code-D97757?style=flat&logo=anthropic&logoColor=white)
-![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 
-## Featured projects
+## What I'm working on
 
-- 🧩 **[templates](https://github.com/Alryx/templates)** — Reusable
-  `AGENTS.md` / `CLAUDE.md` scaffolding for repos where Claude Code (or
-  another agent) does real work, interactively or as a scripted/scheduled
-  agent reacting to untrusted input.
-- 🔐 **devsecops-agent-loop** — Independent-review, dependency-triage, and
-  dependency-autofix agents with a hardened trust boundary between
-  untrusted-input reasoning and credentialed actions.
+**Wynhold** ([wynhold.ch](https://wynhold.ch)) is a digital-first alternative
+to a traditional Swiss Treuhänder. Its products:
 
-> Some of the above are private — descriptions are hand-written here since
-> GitHub can't render live previews of private repos to visitors.
+- **balanxa**: AI-assisted bookkeeping and tax-return preparation for SMEs
+  and individuals.
+- **legalward**: Swiss-law research assistant and confidential document
+  analysis, with a human in the loop.
+- **docpipe**: the document pipeline underneath (file → OCR → structured
+  data), shared by the products above.
+
+Other projects:
+
+- **lessonplan**: an AI assistant for Swiss teachers. Student data is masked
+  before it reaches any model.
+- **kindlewright**: turns a story idea into a full novel, delivered as an
+  EPUB and a narrated audiobook.
+- **ringsparks**: an ambient idle game to keep you company while you work,
+  with **spriteloom**, a self-hosted engine that generates its pixel art.
+
+## Agent tooling
+
+- 🧩 **[templates](https://github.com/Alryx/templates)**: reusable
+  `AGENTS.md` / `CLAUDE.md` scaffolding for repos where coding agents do real
+  work.
+- 🔐 **devsecops-agent-loop**: review, dependency-triage and autofix agents,
+  with a hard trust boundary between reading untrusted input and taking
+  credentialed actions.
+- 🧠 **memoryplane**: shared memory for all my agents, served over MCP. A
+  human approves every change.
+
+> Most repositories are private. The descriptions here are written by hand,
+> because GitHub doesn't show previews of private repos to visitors.
 
 ## GitHub stats
 
